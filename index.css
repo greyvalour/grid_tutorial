@@ -1,0 +1,337 @@
+.godaddy{
+    font-size: 40px;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
+.landingPage{
+    background: linear-gradient(to right, rgba(255,255,255,.8) 10%, rgb(241,241,241,.1)),url(./Image/testing123.jpg);
+    height: 350px;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 40px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.domains{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.bring{
+    font-size: 45px;
+    font-weight: 800;
+    max-width: 382px;
+    width: 100%;
+}
+.low{
+    font-weight: 600;
+}
+button{
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+}
+.prices{
+    font-weight: 100;
+}
+
+.padding{
+    height: 150px;
+    background-color: #fff;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 20px;
+}
+.outerdiv{
+    background-color: yellow;
+    padding: 20px;
+}
+.innerDiv{
+    background-color: blue;
+    padding: 10px;
+}
+.outerDivSecond{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+.innerDivsecond{
+    background-color: tomato;
+}
+.margin{
+    background-color: aqua;
+    margin: 30px;
+    padding: 10px;
+}
+.marger{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.outerOne{
+    background-color: blueviolet;
+}
+
+.InnerOneMargin{
+    background-color: blue;
+    margin: 40px;
+}
+.innerLastPadding{
+    background-color: red;
+    /* padding: 30px; */
+}
+
+
+/* Today 27/3/20223 */
+
+button{
+    border: none;
+}
+.buttoNs{
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.testingZer{
+    background: blue;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px 300px 10px 300px;
+    border: 10px solid yellow;
+}
+body{
+    padding-bottom: 100px;
+}
+.testingBoder{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 40px;
+
+
+    /* border: 20px solid red; */
+    border-left: 15px solid red;
+    border-right: 10px solid yellow;
+}
+.testing123{
+    height: 300px;
+    width: 300px;
+    /* border: 10px dotted red; */
+    /* border: 10px dashed red; */
+    /* border: 10px groove red; */
+    border: 10px inset red;
+    /* outset */
+
+}
+.boxLinear{
+    height: 300px;
+    width: 900px;
+    background: linear-gradient(to left,blue 20%, red);
+}
+.block{
+    display:inline-block;
+    margin-top: 30px;
+}
+.inline{
+    display: block;
+    margin-top: 30px;
+}
+
+.flex{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap; /* nowrap,wrap,wrap-reverse */
+    /* justify-content: space-between; */
+    /* align-items: baseline; stretch,flex-start,flex-end,center,baseline,start,end,self-start and self-end*/
+    gap: 40px;
+    /* gap: 20px 50px; */
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+
+    /* flex-grow: ; */
+    /* flex-shrink: ; */
+
+
+}
+
+.mt_3{
+    margin-top: 30px;
+}
+
+.flex div{
+    width: 100px;
+    height: 100px;
+    /* background-color: cornflowerblue; */
+    /* margin: 20px; */
+    
+}
+.xd{
+    flex: 1;
+    order: 4;
+    background-color: red;
+}
+.two{
+    flex: 1;
+    order: 2;
+    background: blue;
+}
+.three{
+    order: 3;
+    background-color: green;
+    flex: 3;
+}
+.four{
+    flex: 1;
+    order: 1;
+    background-color: gray;
+}
+.left_auto{
+    margin-left: auto;
+    padding-top: 22px;
+    display: flex;
+}
+.left_auto img{
+    margin-top: 5px;
+}
+.left_auto span{
+    padding-right: 5px;
+    padding-top: 10px;
+}
+.flexers{
+    display: flex;
+    padding: 25px;
+}
+.pt_3{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-weight: 800;
+    font-size: 18px;
+    color: #8a8080;
+    cursor: pointer;
+}
+.pt_3:hover{
+    color: black;
+}
+.searchBarContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 25px 10px 25px;
+    height: 60px;
+}
+.inputConatainer{
+    flex: 3;
+    display: flex;
+}
+.rightLinks{
+    flex: 2;
+}
+
+.inputConatainer input{
+    background-color: #EBEBEB;
+    height: 58px;
+    width: 75%;
+    max-height: 100%;
+    border: none;
+}
+.inputConatainer .xbr{
+    background-color: #00838C;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.xbr div{
+    text-align: center;
+    width: 100%;
+}
+.w-100{
+    width: 100%;
+}
+.classFlex{
+    display: flex;
+    height: 100px;
+}
+.colored{
+    background-color: red;
+    text-align: center;
+}
+.anotherElement{
+    height: 100px;
+    background-color: #00838C;
+}
+.colorme{
+    background-color: blue;
+    color: white;
+    font-size: 40px;
+
+    text-align: center;
+}
+
+.grid{
+    height: 50px;
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    /* grid-template-columns: 33px 33px 33px; */
+    /* grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); */
+    grid-gap: 10px;
+}
+
+
+.gridder{
+    background-color: #00838C;
+    /* width: ; */
+}
+.myLandingGrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+}
+.blackSideBar{
+    background-color: #111111;
+    border-radius: 10px;
+    max-width: 380px;
+    /* min-height: 290px; */
+    width: 100%;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 45px;
+}
+.displayFlex{
+    display: flex;
+}
+.header{
+    color: #fff;
+    font-weight: 700;
+}
+.textBody{
+    font-size: 37px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 15px;
+}
+.startBtn{
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 12px 20px;
+    font-weight: 700;
+    color: black;
+    font-size: 17px;
+}
+.learnMore{
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 0 0 15px;
+    display: block;
+}
+.pt_1{
+    padding-top: 10px;
+}
